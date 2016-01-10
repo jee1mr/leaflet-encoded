@@ -12,12 +12,10 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
-  api.use('ecmascript');
   api.addFiles('leaflet-encoded.js');
 });
 
 Package.onTest(function(api) {
-  api.use('ecmascript');
   api.use('tinytest');
   api.use('jee1mr:leaflet-encoded');
   api.addFiles('leaflet-encoded-tests.js');

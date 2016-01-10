@@ -5,7 +5,7 @@ Meteor porting of 'polyline-encoded' node package. (https://github.com/jieter/Le
 
 Usage
 =================
-meteor add jee1mr:leaflet-encoded
+```meteor add jee1mr:leaflet-encoded```
 
 
 
